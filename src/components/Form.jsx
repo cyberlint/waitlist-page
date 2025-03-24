@@ -1,9 +1,11 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { db, collection, addDoc } from "../firebaseConfig";
 
 const Form = () => {
   const [formData, setFormData] = useState({ name: "", email: "" });
   const [message, setMessage] = useState("");
+  const navigate = useNavigate()
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -21,6 +23,7 @@ const Form = () => {
       });
 
       setMessage("Form submitted successfully!");
+      navigate("/thankyou")
       setFormData({ name: "", email: "" });
     } catch (error) {
       setMessage("Error submitting form.");
