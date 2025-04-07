@@ -15,14 +15,14 @@ const Footer = ({contactRef}) => {
           <img src={logo} alt="logo" className="w-[80px] rounded-xl " />
         </i>
         <p className="text-[#061c2d] text-sm my-3">
-          Empowering Africa through AI technology education
+          The Pan-African Tech School
         </p>
       </div>
 
       <div className="text-[#061c2d]">
         <h1 className="font-semibold my-3">Contact Us</h1>
-        <p className="text-sm">Email: analytixshive@gmail.com</p>
-        <p className="text-sm">Phone: 07052044346</p>
+        <p className="text-sm">Email: analytixhive@gmail.com</p>
+        <p className="text-sm">Phone: +234-901-603-7991</p>
       </div>
 
        <div className="mx-5 w-36">
