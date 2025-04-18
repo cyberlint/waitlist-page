@@ -46,11 +46,10 @@ const SecondSection = ({ classesRef }) => {
           Join our free weekly classes on AI & data topics
         </h1>
         <p className="my-2 w-[96%] m-auto">
-          While we're putting on the final polish, why not jump in early? Enjoy
-          our <span> FREE weekly classes </span> where our down-to-earth experts
-          break down all that cool AI and data stuff. Whether you're leveling up
-          your career or just curious to see what tech's all about, come as you
-          are and join the ride.
+          While we're putting on the final polish, why not jump in early?  
+          Enjoy <span>exclusive access to our FREE Data Analysis course</span> when you join the waitlist.  
+          Whether you're leveling up your career or just curious to see what tech's all about,  
+          come as you are and join the ride.
         </p>
 
         <button
